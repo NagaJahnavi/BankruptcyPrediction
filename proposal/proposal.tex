@@ -1,0 +1,114 @@
+\documentclass{article}
+
+
+% if you need to pass options to natbib, use, e.g.:
+%     \PassOptionsToPackage{numbers, compress}{natbib}
+% before loading neurips_2023
+
+
+% ready for submission
+% \usepackage{neurips_2023}
+
+
+% to compile a preprint version, e.g., for submission to arXiv, add add the
+% [preprint] option:
+%     \usepackage[preprint]{neurips_2023}
+
+
+% to compile a camera-ready version, add the [final] option, e.g.:
+\usepackage[final]{neurips_2023}
+
+
+% to avoid loading the natbib package, add option nonatbib:
+%    \usepackage[nonatbib]{neurips_2023}
+
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{xcolor}         % colors
+
+
+\title{Group P31 Final Project Proposal}
+
+
+% The \author macro works with any number of authors. There are two commands
+% used to separate the names and addresses of multiple authors: \And and \AND.
+%
+% Using \And between authors leaves it to LaTeX to determine where to break the
+% lines. Using \AND forces a line break at that point. So, if LaTeX puts 3 of 4
+% authors names on the first line, and the last on the second line, try using
+% \AND instead of \And before the third author name.
+
+
+\author{%
+  Karthik K Jayakumar \And
+  Naga Jahnavi Kommareddy \And
+  Elizabeth Lin
+}
+
+
+\begin{document}
+
+
+\maketitle
+
+
+\section{Title: Bankruptcy Prediction Using Financial Data}
+
+
+\paragraph{Dataset}
+https://archive.ics.uci.edu/dataset/572/taiwanese+bankruptcy+prediction
+
+
+\paragraph{Idea}
+The idea is to use financial data of Taiwanese Firms to predict if they’ll go bankrupt. The dataset we are using is from UC Irvine Machine Learning Repository. The data were collected from the Taiwan Economic Journal for the years 1999 to 2009. Company bankruptcy was defined based on the business regulations of the Taiwan Stock Exchange.
+
+The data has 96 attributes of different financial data like Cost of Interest-bearing Debt, Cash Reinvestment Ratio, Current Ratio and so on. There are 6819 rows/records in the given dataset. Based on the dataset, we hope to create a classification model that can predict if a company will go bankrupt or not.
+
+\paragraph{Software}
+Python, NumPy, Pandas, Scikit-learn, Matplotlib
+
+
+\paragraph{Teammates}
+
+\begin{itemize}
+  \item Elizabeth (etlin):
+  Related work search - Summarizing Paper 1 \\
+  Data Preprocessing - EDA \& Visualization \\
+  Model Selection and development \\
+  Documentation and reporting
+  
+  \item Karthik (kkunnum):
+  Related work search - Summarizing Paper 2 \\
+  Data Preprocessing - Cleaning, Filling missing values \\
+  Model Selection and development\\
+  Documentation and reporting
+  
+  \item Jahnavi (nkommar):
+  Related work search - Summarizing Paper 3\\
+  Data Preprocessing - Data Transformation, Dimensionality Reduction\\
+  Model Selection and development\\
+  Documentation and reporting
+  
+\end{itemize}
+
+
+\paragraph{Papers} 
+The three related work~\cite{kumar2007bankruptcy,olson2012comparative,shi2019overview} we found are listed in the references.
+
+\paragraph{Midterm Milestone}
+Data Preprocessing, Data Transformation methods for analysis, Exploratory Data Analysis, Data Visualization, feature selection, model selection
+
+\bibliographystyle{plain}
+\bibliography{proposal}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}
